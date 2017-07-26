@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.miramicodigo.demolitho.ui.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/btnHelloWorld"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Hola Mundo"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:textSize="30sp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/btn"/>
+        <Button
+            android:id="@+id/btnRecycler"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Recycler"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/btn"
+            android:layout_margin="5dp"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
